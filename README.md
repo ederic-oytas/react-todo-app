@@ -1,9 +1,9 @@
 # React Todo App
 
-This project is a To-do list app created in the React framework. This project
+This project is a To-do list app created in the React framework. This project roughly
 [follows the tutorial created by the YouTuber developedbyed](tutorial).
 
-See the next section to learn how to run the app.
+See the next section to learn how to install and run the app.
 
 ## Local Installation and Running
 
