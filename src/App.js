@@ -31,16 +31,12 @@ function App() {
   const saveLocalTodos = () => {
     if (isDoneLoading) {
       localStorage.setItem("todos", JSON.stringify(todos));
-      console.log("Saving to local todos:");
-      console.log(todos);
     }
   };
   const loadLocalTodos = () => {
     if (localStorage.getItem("todos") !== null) {
       let localTodos = JSON.parse(localStorage.getItem("todos"));
       setTodos(localTodos);
-      console.log("Local todos:");
-      console.log(localTodos);
     }
   };
 
