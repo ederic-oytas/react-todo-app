@@ -44,13 +44,13 @@ function App() {
   useEffect(() => {
     loadLocalTodos();
     setIsDoneLoading(true);
-  }, [isDoneLoading]);
+  }, []);
 
   // Use effect
   useEffect(() => {
     filterHandler();
     saveLocalTodos();
-  }, [todos, status, filterHandler, saveLocalTodos]);
+  }, [todos, setFilteredTodos, status]);
 
   return (
     <div className="App">
